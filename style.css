@@ -2,3 +2,65 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/* Header Area Design */
+
+.nav-title{
+    font-weight: 800 ;
+    font-size:45 px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+   
+}
+
+.btn-primary{
+    size: 15px auto;
+    border:0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* bannner */
+img{
+    width: 35%;
+}
+
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-subtitle{
+    font-size: 30px;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 16px;
+    color:#757575;
+}
+
+/* button modification */
+.btn-primary:hover{
+    background-color: rgb(27, 245, 245)0, 255, 255;
+
+}
