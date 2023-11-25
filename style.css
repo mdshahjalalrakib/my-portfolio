@@ -1,66 +1,112 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Header Area Design */
 
-.nav-title{
-    font-weight: 800 ;
-    font-size:45 px;
+.nav-title {
+    font-weight: 800;
+    font-size: 45 px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 20px 200px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-left: 50px;
-   
+
 }
 
-.btn-primary{
+.btn-primary {
     size: 15px auto;
-    border:0;
+    border: 0;
     padding: 10px 25px;
     border-radius: 5px;
     background-color: #FD6E0A;
-    color:white;
+    color: white;
     font-size: 20px;
     cursor: pointer;
 }
 
 /* bannner */
-img{
-    width: 35%;
+img {
+    width: 58%;
+    margin-right: -130px;
 }
 
-.banner{
+.banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-.banner-subtitle{
-    font-size: 30px;
+
+.banner-subtitle {
+    margin-top: 15px;
+    font-size: 35px;
 }
-.banner-title{
-    font-size: 40px;
+
+.banner-title {
+    margin-top: 15px;
+    font-size: 45px;
     font-weight: 700;
 }
-.banner-description{
+
+.banner-description {
+    margin-top: 15px;
     font-size: 16px;
-    color:#757575;
+    color: #757575;
 }
 
 /* button modification */
-.btn-primary:hover{
-    background-color: rgb(27, 245, 245)0, 255, 255;
+.btn-contact {
+    margin-top: 15px;
+    margin-left: 5px;
+    size: 15px auto;
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-size: 20px;
+    cursor: pointer;
+}
 
+.btn-contact:hover {
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    transition: 0.8s;
+}
+
+.btn-hire {
+    size: 15px auto;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-hire:hover {
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    transition: 0.8s;
+}
+
+header {
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
